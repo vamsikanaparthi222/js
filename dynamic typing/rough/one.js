@@ -45,9 +45,9 @@ function Factorial (n) {
     if (n > 1) {
         n *= Factorial(n - 1);
     }
-    return n;
+/*     return n;
 }*/
-<script>
+{/* <script>
 
 	// Javascript program to implement
 	// the above approach
@@ -99,4 +99,7 @@ function Factorial (n) {
 	}
 	document.write(result);
 
-</script>
+</script> */
+ //*/}
+
+ 
