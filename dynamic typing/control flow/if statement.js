@@ -1,5 +1,5 @@
 //conditional statements
 //if(condition){}
-var sal = 45000;
+var sal = 5000000;
 if (sal > 40000);
-console.log("success");
+console.log("pay for cake");

@@ -53,7 +53,7 @@ let employees=[{"id":1,"first_name":"Toinette","last_name":"Doche","email":"tdoc
     for (emp of employees) {
       rows =
         rows +
-        `<tr> 
+        `<tr>
               <td> ${emp.id}</td> 
               <td> ${emp.first_name}</td> 
               <td> ${emp.email}</td> 

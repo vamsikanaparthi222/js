@@ -5,8 +5,8 @@ else{
     //true
 }*/
 
-var sal = 16000;
-if (sal>40000) {
+var sal = 1600;
+if (sal>40000){
     console.log("eligible");
 }
 else{

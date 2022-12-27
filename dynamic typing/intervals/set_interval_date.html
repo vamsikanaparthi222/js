@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>SET INTERVAL() AND CLEAR INTERVAL() METHODS</h1>
+    <p id="demo"></p>
+    <button onclick="mystop()">Stop The Time</button>
+    <script>
+        const myInterval =setInterval(myTimer,1000);
+        function myTimer(){
+            const date =new Date();
+            document.getElementById("demo").innerHTML =date.toLocaleTimeString();
+        }    
+            function mystop(){
+                clearInterval(myInterval)
+            }
+        
+    </script>
+</body>
+</html> -->
+
+
+
+<!-- <h1>hai</h1>
+<p id="demo" ></p>
+<button onclick="mystop()">stop the time</button>
+<script>
+    const myInterval = setInterval(timer,2000);
+    function myTimer(){
+        const date = new Date();
+        document.getElementById("demo").innerHTML = date.toLocaleTimeString();
+    }
+    function mystop(){
+        clearInterval(myInterval)
+    }
+</script> -->
+
+
+
+
+<!-- birtday greetings (using timeout function) -->
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1 id="demo"></h1>
+<p>dfegtweujqw</p>
+<button onclick="myStopFunction()">stop it</button>
+<script>
+    const myTimeout = setTimeout(myGreetings,3000);
+    function myGreetings(){
+        document.getElementById("demo").innerHTML ="Happy Birthday"
+    }
+    function myStopFunction(){
+        clearTimeout(myTimeout);
+    }
+</script>
+</body>
+</html>

@@ -7,9 +7,9 @@ else{
     console.log("hi");
 }*/
 
-/* var i = 222
+var i = 222
 if (i % 7 ==0){
     console.log("correct");
 }else{
     console.log("not");
-} */ 
+} 

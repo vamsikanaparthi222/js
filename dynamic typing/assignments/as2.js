@@ -9,7 +9,7 @@ else{
 
 var i = 222
 if (i % 3 == 0){
-    console.log("not");
-}else{
     console.log("correct");
+}else{
+    console.log("not");
 }
